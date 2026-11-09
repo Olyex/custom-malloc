@@ -1,0 +1,16 @@
+# Build
+*.o
+*.so
+tests/testsuite
+
+# Binaires de test fournis (pas à publier)
+tests/speed
+tests/corruptionproof
+tests/memoryfootprint
+
+# Éditeurs / système
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
